@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="time()">
+    
+    <button id="clock"></button>
+    <p id="nice"></p>
+    <div class="popup">
+        <h3>SET ALARM AFTER</h3>
+        <div class="container">
+            <div>
+                <label>HOURS</label>
+                <input id="hInp" type="text" value="0" size="3">
+            </div><div>
+                <label>MINUTES</label>
+                <input id="mInp" type="text" value="0" size="3">
+            </div><div>
+                <label>SECOUNDS</label>
+                <input id="sInp" type="text" value="0" size="3">
+            </div>
+        </div>
+        <button onclick="alarm()">Set</button>
+        <button onclick="clearElement()">Clear</button>
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

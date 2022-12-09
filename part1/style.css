@@ -1,0 +1,47 @@
+#clock{
+	width:370px;
+	padding:40px;
+	margin:100px auto 60px;
+	position:relative;
+    font-size: 35px;
+    background-color: rgb(38, 76, 119);
+    font-style: oblique;
+    color: antiquewhite;
+    
+}
+.popup{
+  background-color: DodgerBlue;
+  width: 300px;
+  height:350px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.popup > h3{
+  color:#f1f1f1;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .container > div {
+    background-color: #f1f1f1;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size:75%;
+    padding: 19px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  .container > input{
+    size: 3;
+  }
